@@ -1,0 +1,23 @@
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 1rem;
+}
+
+.logo {
+  width: 6.25rem;
+}
+
+.login {
+  width: 8.31rem;
+  font-family: 'Raleway', sans-serif;
+  background-color: #fff;
+  color: #2A7AE4;
+  border: 1px solid #2A7AE4;
+  padding: .75rem 1rem;
+}
+
+.lupa {
+  width: 1.065rem;
+}
