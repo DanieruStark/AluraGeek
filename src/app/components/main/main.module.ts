@@ -4,6 +4,7 @@ import { MainComponent } from './main.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { StarWarsComponent } from './components/star-wars/star-wars.component';
 import { ConsolesComponent } from './components/consoles/consoles.component';
+import { DiversosComponent } from './components/diversos/diversos.component';
 
 
 
@@ -12,7 +13,8 @@ import { ConsolesComponent } from './components/consoles/consoles.component';
     MainComponent,
     BannerComponent,
     StarWarsComponent,
-    ConsolesComponent
+    ConsolesComponent,
+    DiversosComponent
   ],
   imports: [
     CommonModule
