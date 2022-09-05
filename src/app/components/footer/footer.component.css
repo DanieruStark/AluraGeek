@@ -1,0 +1,134 @@
+.footer_info {
+  background: #EAF2FD;
+
+}
+
+.footer_info_links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 1rem;
+}
+
+.footer_logo {
+  width: 11rem;
+  height: 3.125rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer_info_link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-align: center;
+  color: #464646;
+  margin-bottom: 1rem;
+}
+
+.contato {
+  margin: 1rem;
+  margin-bottom: 0;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #464646;
+  margin-bottom: .5rem;
+}
+
+.name_box {
+  display: flex;
+  flex-direction: column;
+  width: 20.5rem;
+  height: 3.5rem;
+  background: #fff;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #C8C8C8;
+  border-radius: 4px;
+}
+
+.name {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: .75rem;
+  line-height: 1rem;
+  color: #A2A2A2;
+  margin-left: .75rem;
+  margin-top: .5rem;
+  margin-bottom: .25rem;
+}
+
+.footer_name {
+  width: 19rem;
+  border: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-left: .65rem;
+  margin-bottom: .4375rem;
+}
+
+.text_box {
+  width: 20.5rem;
+  height: 5.125rem;
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border-bottom: 1px solid #C8C8C8;
+  margin-bottom: .5rem;
+  border-radius: 4px;
+}
+
+.message {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  text-decoration: none;
+  color: #A2A2A2;
+  margin-top: 1rem;
+  margin-left: .75rem;
+}
+
+.footer_message {
+  width: 19rem;
+  border: none;
+  resize: none;
+  margin-left: .65rem;
+}
+
+.footer_button {
+  width: 9.4375rem;
+  height: 2.5rem;
+  background: #2A7AE4;
+  border: none;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.signature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.auth {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  text-align: center;
+  color: #464646;
+}
