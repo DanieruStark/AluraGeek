@@ -132,3 +132,34 @@
   text-align: center;
   color: #464646;
 }
+
+@media (min-width: 768px) {
+  .footer_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .contato {
+    margin: 1rem;
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+
+  .footer_info_links {
+    margin: 2rem;
+    margin-top: 1rem;
+  }
+
+  .footer_logo {
+    margin-top: 0;
+  }
+
+  .name_box, .text_box {
+    width: 27.125rem;
+  }
+
+  .footer_name, .footer_message {
+    width: 25rem;
+  }
+}
