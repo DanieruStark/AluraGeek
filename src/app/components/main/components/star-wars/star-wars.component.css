@@ -62,3 +62,42 @@
   line-height: 1rem;
   color: #2A7AE4;
 }
+
+@media (min-width: 768px) {
+  .starWars_header {
+    margin: 1rem 2rem;
+  }
+
+  .see_all {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+  }
+
+  .arrow {
+    margin-left: .5rem;
+  }
+
+  .starWars_main {
+    margin: 0 2rem;
+  }
+
+  .starWars_product {
+    margin: 0;
+    margin-right: 1rem;
+  }
+  .starWars_product:last-child {
+    margin-right: 0;
+  }
+
+  .starWars_img {
+    width: 10.25rem;
+    height: 10.875rem;
+  }
+
+  .single_product {
+    font-size: 1rem;
+    line-height: 1.1875rem;
+  }
+}
