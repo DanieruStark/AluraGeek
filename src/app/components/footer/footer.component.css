@@ -18,6 +18,11 @@
   margin-bottom: 1rem;
 }
 
+.info_link_group {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer_info_link {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -134,21 +139,26 @@
 }
 
 @media (min-width: 768px) {
-  .footer_info {
+  .footer_group {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   .contato {
     margin: 1rem;
+    margin-top: 2rem;
     margin-right: 2rem;
     margin-bottom: 0;
   }
 
   .footer_info_links {
+    align-items: flex-start;
     margin: 2rem;
-    margin-top: 1rem;
+    margin-top: 2rem;
+  }
+
+  .info_link_group {
+    align-items: flex-start;
   }
 
   .footer_logo {
@@ -173,7 +183,6 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-
   }
 
   .footer_info_links {
@@ -194,8 +203,6 @@
   }
 
   .info_link_group {
-    display: flex;
-    flex-direction: column;
     align-items: flex-start;
   }
 

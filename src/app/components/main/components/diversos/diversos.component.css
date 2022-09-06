@@ -36,6 +36,10 @@
   margin-right: 0;
 }
 
+.diversos_product:nth-last-child(-n+2) {
+  display: none;
+}
+
 .description {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -81,17 +85,15 @@
 
   .diversos_main {
     margin: 0 2rem;
+    margin-bottom: 2rem;
   }
 
   .diversos_product {
     margin: 0;
     margin-right: 1rem;
   }
-  .diversos_product:last-child {
-    margin-right: 0;
-  }
 
-  .diversos_product:last-child {
+  .diversos_product:nth-last-child(3) {
     margin-right: 0;
   }
 
@@ -142,6 +144,14 @@
 
   .diversos_product {
     margin-right: 1.3rem;
+  }
+
+  .diversos_product:nth-last-child(3) {
+    margin-right: 1.3rem;
+  }
+
+  .diversos_product:last-child {
+    margin-right: 0;
   }
 
   .diversos_product:nth-last-child(-n+2) {

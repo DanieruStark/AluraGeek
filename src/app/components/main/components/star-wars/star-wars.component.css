@@ -36,6 +36,10 @@
   margin-right: 0;
 }
 
+.starWars_product:nth-last-child(-n+2) {
+  display: none;
+}
+
 .description {
   font-family: 'Raleway', sans-serif;
   font-weight: 500;
@@ -89,7 +93,7 @@
     margin-right: 1rem;
   }
 
-  .starWars_product:last-child {
+  .starWars_product:nth-last-child(3) {
     margin-right: 0;
   }
 
@@ -138,6 +142,14 @@
 
   .starWars_product {
     margin-right: 1.3rem;
+  }
+
+  .starWars_product:nth-last-child(3) {
+    margin-right: 1.3rem;
+  }
+
+  .starWars_product:last-child {
+    margin-right: 0;
   }
 
   .starWars_product:nth-last-child(-n+2) {
