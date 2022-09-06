@@ -91,6 +91,14 @@
     margin-right: 0;
   }
 
+  .diversos_product:last-child {
+    margin-right: 0;
+  }
+
+  .diversos_product:nth-last-child(-n+2) {
+    display: none;
+  }
+
   .diversos_img {
     width: 10.25rem;
     height: 10.875rem;
@@ -99,5 +107,44 @@
   .single_product {
     font-size: 1rem;
     line-height: 1.1875rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .diversos_header {
+    margin: 1rem 9.5rem;
+    margin-top: 4rem;
+  }
+  .title {
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+
+  .see_all {
+    width: 6.125rem;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+  }
+
+  .arrow {
+    width: 1rem;
+  }
+
+  .diversos_main {
+    margin: 0 9.5rem;
+    margin-bottom: 4rem;
+  }
+
+  .diversos_img {
+    width: 9.75rem;
+    height: 10.875rem;
+  }
+
+  .diversos_product {
+    margin-right: 1.3rem;
+  }
+
+  .diversos_product:nth-last-child(-n+2) {
+    display: inline;
   }
 }
