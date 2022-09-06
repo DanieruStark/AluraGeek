@@ -73,4 +73,11 @@
     width: 26.4375rem;
     height: 3.945rem;
   }
+
+  .login_button {
+    width: 26.4375rem;
+    height: 3.875rem;
+    font-size: 1.125rem;
+    line-height: 1.3125rem;
+  }
 }
