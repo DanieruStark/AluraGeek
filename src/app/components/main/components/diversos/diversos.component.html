@@ -4,64 +4,14 @@
     <button class="see_all">Ver tudo 🡢</button>
   </div>
   <div class="diversos_main">
-    <div class="diversos_product">
+    <div class="diversos_product" *ngFor="let product of products">
       <img
-        src="assets/img/atari.jpg"
+        [src]="product.image"
         alt="Imagem de uma camiseta com o simbulo da atari"
         class="diversos_img"
       />
-      <p class="description">Camiseta Atari</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="diversos_product">
-      <img
-        src="assets/img/cam_sness.jpg"
-        alt="Imagem de uma camiseta com o console snes"
-        class="diversos_img"
-      />
-      <p class="description">Camiseta Snes</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="diversos_product">
-      <img
-        src="assets/img/sonic.jpg"
-        alt="Imagem de um action figure do sonic"
-        class="diversos_img"
-      />
-      <p class="description">Action figure Sonic</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="diversos_product">
-      <img
-        src="assets/img/relogio.jpg"
-        alt="Imagem de um radio anos 90"
-        class="diversos_img"
-      />
-      <p class="description">Radio anos 90</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="diversos_product">
-      <img
-        src="assets/img/vr.jpg"
-        alt="Imagem do Console Xbox Series X"
-        class="diversos_img"
-      />
-      <p class="description">Console Xbox series X</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="diversos_product">
-      <img
-        src="assets/img/pikachu.jpg"
-        alt="Imagem Console Game Boy color"
-        class="diversos_img"
-      />
-      <p class="description">Console Game boy color</p>
-      <p class="price">R$ 60,00</p>
+      <p class="product_title">{{ product.title }}</p>
+      <p class="price">{{ product.price }}</p>
       <a class="single_product">Ver produto</a>
     </div>
   </div>

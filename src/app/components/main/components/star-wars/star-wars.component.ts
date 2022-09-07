@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductsCategorys } from '../products-category';
+import { StarWarsService } from './star-wars.service';
+
 
 @Component({
   selector: 'app-star-wars',
@@ -7,9 +10,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StarWarsComponent implements OnInit {
 
-  constructor() { }
+  products!: ProductsCategorys;
+  
+  constructor(private starWarsService: StarWarsService) { }
 
   ngOnInit(): void {
+    this.getProducts();
   }
 
+  getProducts(){
+    this.starWarsService.userList().subscribe({
+      next: (res) => {
+        this.products = res;
+      },
+      error: (err) => console.log('Error while fetching the api')
+    })
+  }
 }

@@ -1,0 +1,134 @@
+{
+  "starwars": [
+    {
+      "id": 1,
+      "image": "assets/img/caneca.jpg",
+      "title": "Caneca Storm trooper",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 2,
+      "image": "assets/img/vader.jpg",
+      "title": "Lego Dark side",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 3,
+      "image": "assets/img/yoda.jpg",
+      "title": "Figure Yoda",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 4,
+      "image": "assets/img/trooper.jpg",
+      "title": "Figure Storm trooper",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 5,
+      "image": "assets/img/baby_yoda.jpg",
+      "title": "Figure Baby Yoda",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 6,
+      "image": "assets/img/kyle.jpg",
+      "title": "Figure Kyle Rem",
+      "price": "R$ 60,00"
+
+    }
+  ],
+  "consoles": [
+    {
+      "id": 1,
+      "image": "assets/img/controller_xbox_s-x.jpg",
+      "title": "Controle Xbox series",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 2,
+      "image": "assets/img/ps5.jpg",
+      "title": "Console Playstation 5",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 3,
+      "image": "assets/img/sness.jpg",
+      "title": "Console Sness",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 4,
+      "image": "assets/img/switch.jpg",
+      "title": "Console N. switch",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 5,
+      "image": "assets/img/xbox_x.jpg",
+      "title": "Console Xbox series X",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 6,
+      "image": "assets/img/boy.jpg",
+      "title": "Console Game boy color",
+      "price": "R$ 60,00"
+
+    }
+  ],
+  "diversos": [
+    {
+      "id": 1,
+      "image": "assets/img/atari.jpg",
+      "title": "Camiseta Atari",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 2,
+      "image": "assets/img/cam_sness.jpg",
+      "title": "Camiseta Snes",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 3,
+      "image": "assets/img/sonic.jpg",
+      "title": "Action figure Sonic",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 4,
+      "image": "assets/img/relogio.jpg",
+      "title": "Radio anos 90",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 5,
+      "image": "assets/img/vr.jpg",
+      "title": "Vr",
+      "price": "R$ 60,00"
+
+    },
+    {
+      "id": 6,
+      "image": "assets/img/pikachu.jpg",
+      "title": "Fantasia Pikachu",
+      "price": "R$ 60,00"
+
+    }
+  ]
+}

@@ -4,64 +4,14 @@
     <button class="see_all">Ver tudo 🡢</button>
   </div>
   <div class="consoles_main">
-    <div class="consoles_product">
+    <div class="consoles_product" *ngFor="let product of products">
       <img
-        src="assets/img/controller_xbox_s-x.jpg"
+        [src]="product.image"
         alt="Imagem de um controle Xbox series"
         class="consoles_img"
       />
-      <p class="description">Controle Xbox series</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="consoles_product">
-      <img
-        src="assets/img/ps5.jpg"
-        alt="Imagem de um console e um controle de playstation 5"
-        class="consoles_img"
-      />
-      <p class="description">Console Playstation 5</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="consoles_product">
-      <img
-        src="assets/img/sness.jpg"
-        alt="Imagem de um console sness"
-        class="consoles_img"
-      />
-      <p class="description">Console Sness</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="consoles_product">
-      <img
-        src="assets/img/switch.jpg"
-        alt="Imagem de um controle nintendo switch"
-        class="consoles_img"
-      />
-      <p class="description">Console N. switch</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="consoles_product">
-      <img
-        src="assets/img/xbox_x.jpg"
-        alt="Imagem do Console Xbox Series X"
-        class="consoles_img"
-      />
-      <p class="description">Console Xbox series X</p>
-      <p class="price">R$ 60,00</p>
-      <a class="single_product">Ver produto</a>
-    </div>
-    <div class="consoles_product">
-      <img
-        src="assets/img/boy.jpg"
-        alt="Imagem Console Game Boy color"
-        class="consoles_img"
-      />
-      <p class="description">Console Game boy color</p>
-      <p class="price">R$ 60,00</p>
+      <p class="product_title">{{ product.title }}</p>
+      <p class="price">{{ product.price }}</p>
       <a class="single_product">Ver produto</a>
     </div>
   </div>
