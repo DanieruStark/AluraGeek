@@ -1,0 +1,32 @@
+<app-header></app-header>
+<main *ngIf="productStarWars$ | async as product">
+  <section class="description_box">
+    <img [src]="product.banner" alt="" class="banner">
+    <div class="texts">
+      <h1 class="title">{{ product.title }}</h1>
+      <h2 class="price">{{ product.price }}</h2>
+      <p class="description">{{ product.description }}</p>
+    </div>
+  </section>
+</main>
+<main *ngIf="productConsoles$ | async as product">
+  <section class="description_box">
+    <img [src]="product.banner" alt="" class="banner">
+    <div class="texts">
+      <h1 class="title">{{ product.title }}</h1>
+      <h2 class="price">{{ product.price }}</h2>
+      <p class="description">{{ product.description }}</p>
+    </div>
+  </section>
+</main>
+<main *ngIf="productDiversos$ | async as product">
+  <section class="description_box">
+    <img [src]="product.banner" alt="" class="banner">
+    <div class="texts">
+      <h1 class="title">{{ product.title }}</h1>
+      <h2 class="price">{{ product.price }}</h2>
+      <p class="description">{{ product.description }}</p>
+    </div>
+  </section>
+</main>
+<app-footer></app-footer>

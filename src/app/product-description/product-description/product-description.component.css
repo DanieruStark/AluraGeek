@@ -1,0 +1,91 @@
+.banner {
+  width: 100%;
+  height: 12rem;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+  color: #464646;
+  margin: 1rem;
+  margin-bottom: .5rem;
+}
+
+.price {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+  color: #464646;
+  margin: .5rem 1rem;
+}
+
+.description {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: .875rem;
+  line-height: 1rem;
+  color: #464646;
+  margin: .5rem 1rem;
+}
+
+@media (min-width: 768px) {
+  .description_box {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .banner {
+    width: 15.875rem;
+    height: 9.8125rem;
+    margin: 2rem;
+    margin-right: 1rem;
+  }
+
+  .texts {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .description_box {
+    align-items: center;
+  }
+
+  .banner {
+    width: 35rem;
+    height: 25.1875rem;
+    margin-top: 4rem;
+    margin-right: 0;
+    margin-left: 9.5rem;
+  }
+
+  .texts {
+    margin-right: 9.5rem;
+  }
+
+  .title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 3.8125rem;
+    color: #464646;
+    margin: 1rem;
+    margin-bottom: .5rem;
+  }
+
+  .description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #464646;
+    margin: .5rem 1rem;
+  }
+}

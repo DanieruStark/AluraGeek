@@ -1,0 +1,59 @@
+<section class="items_list">
+  <div class="items_header">
+    <h2 class="title">Star Wars</h2>
+    <button class="see_all">
+      <p>Ver tudo</p>
+      <span class="arrow">🡢</span>
+    </button>
+  </div>
+  <div class="items_main" >
+    <div class="items_product" *ngFor="let product of productsStarWars">
+      <img
+        [src]="product.image"
+        alt="Caneca capacete storm trooper"
+        class="items_img"
+      />
+      <p class="product_title">{{ product.title }}</p>
+      <p class="price">{{ product.price }}</p>
+      <a class="single_product" [routerLink]="[product.id]">Ver produto</a>
+    </div>
+  </div>
+  <div class="items_header">
+    <h2 class="title">Consoles</h2>
+    <button class="see_all">
+      <p>Ver tudo</p>
+      <span class="arrow">🡢</span>
+    </button>
+  </div>
+  <div class="items_main" >
+    <div class="items_product" *ngFor="let product of productsConsoles">
+      <img
+        [src]="product.image"
+        alt="Caneca capacete storm trooper"
+        class="items_img"
+      />
+      <p class="product_title">{{ product.title }}</p>
+      <p class="price">{{ product.price }}</p>
+      <a class="single_product" [routerLink]="[product.id]">Ver produto</a>
+    </div>
+  </div>
+  <div class="items_header">
+    <h2 class="title">Diversos</h2>
+    <button class="see_all">
+      <p>Ver tudo</p>
+      <span class="arrow">🡢</span>
+    </button>
+  </div>
+  <div class="items_main" >
+    <div class="items_product" *ngFor="let product of productsDiversos">
+      <img
+        [src]="product.image"
+        alt="Caneca capacete storm trooper"
+        class="items_img"
+      />
+      <p class="product_title">{{ product.title }}</p>
+      <p class="price">{{ product.price }}</p>
+      <a class="single_product" [routerLink]="[product.id]">Ver produto</a>
+    </div>
+  </div>
+</section>

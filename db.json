@@ -2,133 +2,169 @@
   "starwars": [
     {
       "id": 1,
+      "category": "Star Wars",
       "image": "assets/img/caneca.jpg",
+      "banner": "assets/img/banner_caneca.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Caneca Storm trooper",
       "price": "R$ 60,00"
-
     },
     {
       "id": 2,
+      "category": "Star Wars",
       "image": "assets/img/vader.jpg",
+      "banner": "assets/img/banner_vader.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Lego Dark side",
       "price": "R$ 60,00"
-
     },
     {
       "id": 3,
+      "category": "Star Wars",
       "image": "assets/img/yoda.jpg",
+      "banner": "assets/img/banner_yoda.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Figure Yoda",
       "price": "R$ 60,00"
-
     },
     {
       "id": 4,
+      "category": "Star Wars",
       "image": "assets/img/trooper.jpg",
+      "banner": "assets/img/banner_trooper.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Figure Storm trooper",
       "price": "R$ 60,00"
-
     },
     {
       "id": 5,
+      "category": "Star Wars",
       "image": "assets/img/baby_yoda.jpg",
+      "banner": "assets/img/banner_baby_yoda.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Figure Baby Yoda",
       "price": "R$ 60,00"
-
     },
     {
       "id": 6,
+      "category": "Star Wars",
       "image": "assets/img/kyle.jpg",
+      "banner": "assets/img/banner_kyle.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Figure Kyle Rem",
       "price": "R$ 60,00"
-
     }
   ],
   "consoles": [
     {
-      "id": 1,
+      "id": 7,
+      "category": "Consoles",
       "image": "assets/img/controller_xbox_s-x.jpg",
+      "banner": "assets/img/banner_controller_xbox_s.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Controle Xbox series",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 2,
+      "id": 8,
+      "category": "Consoles",
       "image": "assets/img/ps5.jpg",
+      "banner": "assets/img/banner_ps5.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Console Playstation 5",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 3,
+      "id": 9,
+      "category": "Consoles",
       "image": "assets/img/sness.jpg",
+      "banner": "assets/img/banner_sness.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Console Sness",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 4,
+      "id": 10,
+      "category": "Consoles",
       "image": "assets/img/switch.jpg",
+      "banner": "assets/img/banner_switch.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Console N. switch",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 5,
+      "id": 11,
+      "category": "Consoles",
       "image": "assets/img/xbox_x.jpg",
+      "banner": "assets/img/banner_xbox_x.jpeg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Console Xbox series X",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 6,
+      "id": 12,
+      "category": "Consoles",
       "image": "assets/img/boy.jpg",
+      "banner": "assets/img/banner_boy.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Console Game boy color",
       "price": "R$ 60,00"
-
     }
   ],
   "diversos": [
     {
-      "id": 1,
+      "id": 13,
+      "category": "diversos",
       "image": "assets/img/atari.jpg",
+      "banner": "assets/img/banner_atari.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Camiseta Atari",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 2,
+      "id": 14,
+      "category": "diversos",
       "image": "assets/img/cam_sness.jpg",
+      "banner": "assets/img/banner_cam_snes.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Camiseta Snes",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 3,
+      "id": 15,
+      "category": "diversos",
       "image": "assets/img/sonic.jpg",
+      "banner": "assets/img/banner_sonic.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Action figure Sonic",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 4,
+      "id": 16,
+      "category": "diversos",
       "image": "assets/img/relogio.jpg",
+      "banner": "assets/img/banner_relogio.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Radio anos 90",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 5,
+      "id": 17,
+      "category": "diversos",
       "image": "assets/img/vr.jpg",
+      "banner": "assets/img/banner_vr.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Vr",
       "price": "R$ 60,00"
-
     },
     {
-      "id": 6,
+      "id": 18,
+      "category": "diversos",
       "image": "assets/img/pikachu.jpg",
+      "banner": "assets/img/banner_pikachu.jpg",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Fantasia Pikachu",
       "price": "R$ 60,00"
-
     }
   ]
 }

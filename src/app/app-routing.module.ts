@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { ProductDescriptionComponent } from './product-description/product-description/product-description.component';
 
 const routes: Routes = [
   { path: '', 
@@ -15,6 +16,7 @@ const routes: Routes = [
     path: 'login',
     loadChildren: () => import('./login/login.module').then((m) => m.LoginModule)
   },
+  {path: ':productId', component: ProductDescriptionComponent }
 ];
 
 @NgModule({
