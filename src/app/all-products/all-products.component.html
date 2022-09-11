@@ -1,0 +1,73 @@
+<app-header></app-header>
+<main>
+  <section class="main_header">
+    <h1 class="title">Todos os produtos</h1>
+    <button class="add_product">Adicionar produto</button>
+  </section>
+  <div class="items_main">
+    <div class="items_product" *ngFor="let product of productsStarWars">
+      <div class="icones">
+        <img
+          src="../../assets/img/delete_button.svg"
+          alt="botão para deletar"
+          class="delete_button"
+        />
+        <img
+          src="../../assets/img/edit_button.svg"
+          alt="botão para editar"
+          class="edit_button"
+        />
+      </div>
+      <img
+        [src]="product.image"
+        alt="Caneca capacete storm trooper"
+        class="items_img"
+      />
+      <p class="product_title">{{ product.title }}</p>
+      <p class="price">{{ product.price }}</p>
+    </div>
+    <div class="items_product" *ngFor="let product of productsConsoles">
+      <div class="icones">
+        <img
+          src="../../assets/img/delete_button.svg"
+          alt="botão para deletar"
+          class="delete_button"
+        />
+        <img
+          src="../../assets/img/edit_button.svg"
+          alt="botão para editar"
+          class="edit_button"
+        />
+      </div>
+      <img
+        [src]="product.image"
+        alt="Caneca capacete storm trooper"
+        class="items_img"
+      />
+      <p class="product_title">{{ product.title }}</p>
+      <p class="price">{{ product.price }}</p>
+    </div>
+    <div class="items_product" *ngFor="let product of productsDiversos">
+      <div class="icones">
+        <img
+          src="../../assets/img/delete_button.svg"
+          alt="botão para deletar"
+          class="delete_button"
+        />
+        <img
+          src="../../assets/img/edit_button.svg"
+          alt="botão para editar"
+          class="edit_button"
+        />
+      </div>
+      <img
+        [src]="product.image"
+        alt="Caneca capacete storm trooper"
+        class="items_img"
+      />
+      <p class="product_title">{{ product.title }}</p>
+      <p class="price">{{ product.price }}</p>
+    </div>
+  </div>
+</main>
+<app-footer></app-footer>

@@ -1,20 +1,18 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductsCategorys } from '../products-category';
-import { ItemsService } from './items.service';
-
+import { ProductsCategorys } from '../components/main/components/products-category';
+import { AllProductsService } from './all-products.service';
 
 @Component({
-  selector: 'app-items',
-  templateUrl: './items.component.html',
-  styleUrls: ['./items.component.css']
+  selector: 'app-all-products',
+  templateUrl: './all-products.component.html',
+  styleUrls: ['./all-products.component.css']
 })
-export class ItemsComponent implements OnInit {
-
+export class AllProductsComponent implements OnInit {
   productsStarWars!: ProductsCategorys;
   productsConsoles!: ProductsCategorys;
   productsDiversos!: ProductsCategorys;
-  categorys = {};
-  constructor(private itemsService: ItemsService) { }
+
+  constructor(private allProductsService: AllProductsService) { }
 
   ngOnInit(): void {
     this.getProductsStarWars();
@@ -23,7 +21,7 @@ export class ItemsComponent implements OnInit {
   }
 
   getProductsStarWars(){
-    this.itemsService.userListStarWars().subscribe({
+    this.allProductsService.userListStarWars().subscribe({
       next: (res) => {
         this.productsStarWars = res;
       },
@@ -31,7 +29,7 @@ export class ItemsComponent implements OnInit {
     })
   }
   getProductsConsoles(){
-    this.itemsService.userListConsoles().subscribe({
+    this.allProductsService.userListConsoles().subscribe({
       next: (res) => {
         this.productsConsoles = res;
       },
@@ -39,7 +37,7 @@ export class ItemsComponent implements OnInit {
     })
   }
   getProductsDiversos(){
-    this.itemsService.userListDiversos().subscribe({
+    this.allProductsService.userListDiversos().subscribe({
       next: (res) => {
         this.productsDiversos = res;
       },
