@@ -166,5 +166,12 @@
       "title": "Fantasia Pikachu",
       "price": "R$ 60,00"
     }
+  ],
+  "user": [
+    {
+      "id": 19,
+      "email": "danielmaster19@gmail.com",
+      "senha": "123456"
+    }
   ]
 }

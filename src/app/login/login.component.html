@@ -2,20 +2,22 @@
 
 <div class="login_box">
   <h1 class="title">Iniciar Sessão</h1>
-  <form class="login_form">
+  <form class="login_form" (ngSubmit)="login()">
     <label for="email"></label>
     <input
       type="email"
       class="login_email"
-      id="email"
       placeholder="Escreva seu email"
+      [(ngModel)]="email"
+      name="email"
     />
     <label for="senha"></label>
     <input
       type="password"
       class="login_senha"
-      id="senha"
       placeholder="Escreva sua senha"
+      [(ngModel)]="senha"
+      name="senha"
     />
     <button class="login_button">Entrar</button>
   </form>
