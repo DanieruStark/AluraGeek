@@ -5,7 +5,7 @@ import { NewProductRoutingModule } from './new-product-routing.module';
 import { NewProductComponent } from './new-product.component';
 import { HeaderModule } from '../components/header/header.module';
 import { FooterModule } from '../components/footer/footer.module';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,7 +15,8 @@ import { FooterModule } from '../components/footer/footer.module';
     CommonModule,
     NewProductRoutingModule,
     HeaderModule,
-    FooterModule
+    FooterModule,
+    FormsModule
   ]
 })
 export class NewProductModule { }

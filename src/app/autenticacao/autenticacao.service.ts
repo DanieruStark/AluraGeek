@@ -12,8 +12,8 @@ export class AutenticacaoService {
 
   constructor(private httpClient: HttpClient) { }
 
-  autentica(email: string, senha: string): Observable<any> {
-    return this.httpClient.post(`${API}/user`, {
+  autentica(email: string, senha: string, page: string): Observable<any> {
+    return this.httpClient.post(`${API}/${page}`, {
       email: email,
       senha: senha
     })

@@ -10,14 +10,14 @@ export class LoginComponent implements OnInit {
 
   email = '';
   senha = '';
-
+  page = 'user';
   constructor(private authService: AutenticacaoService) { }
 
   ngOnInit(): void {
   }
 
   login(){
-    this.authService.autentica(this.email, this.senha).subscribe({
+    this.authService.autentica(this.email, this.senha, this.page).subscribe({
       next: () => {
         console.log('autenticado com sucesso');
       },

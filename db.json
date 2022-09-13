@@ -2,7 +2,7 @@
   "starwars": [
     {
       "id": 1,
-      "category": "Star Wars",
+      "category": "starwars",
       "image": "assets/img/caneca.jpg",
       "banner": "assets/img/banner_caneca.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "category": "Star Wars",
+      "category": "starwars",
       "image": "assets/img/vader.jpg",
       "banner": "assets/img/banner_vader.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "category": "Star Wars",
+      "category": "starwars",
       "image": "assets/img/yoda.jpg",
       "banner": "assets/img/banner_yoda.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "category": "Star Wars",
+      "category": "starwars",
       "image": "assets/img/trooper.jpg",
       "banner": "assets/img/banner_trooper.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "category": "Star Wars",
+      "category": "starwars",
       "image": "assets/img/baby_yoda.jpg",
       "banner": "assets/img/banner_baby_yoda.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -47,18 +47,27 @@
     },
     {
       "id": 6,
-      "category": "Star Wars",
+      "category": "starwars",
       "image": "assets/img/kyle.jpg",
       "banner": "assets/img/banner_kyle.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
       "title": "Figure Kyle Rem",
       "price": "R$ 60,00"
+    },
+    {
+      "id": 32,
+      "category": "starwars",
+      "image": "https://cdn.dribbble.com/users/150724/screenshots/2384621/preview_5.png",
+      "banner": "https://cdn.dribbble.com/users/150724/screenshots/2384621/preview_5.png",
+      "title": "BB-8",
+      "price": "R$60,00",
+      "description": "BB-8 novo de excelente I.A desenvolvida em TypeScript."
     }
   ],
   "consoles": [
     {
       "id": 7,
-      "category": "Consoles",
+      "category": "consoles",
       "image": "assets/img/controller_xbox_s-x.jpg",
       "banner": "assets/img/banner_controller_xbox_s.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -67,7 +76,7 @@
     },
     {
       "id": 8,
-      "category": "Consoles",
+      "category": "consoles",
       "image": "assets/img/ps5.jpg",
       "banner": "assets/img/banner_ps5.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -76,7 +85,7 @@
     },
     {
       "id": 9,
-      "category": "Consoles",
+      "category": "consoles",
       "image": "assets/img/sness.jpg",
       "banner": "assets/img/banner_sness.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -85,7 +94,7 @@
     },
     {
       "id": 10,
-      "category": "Consoles",
+      "category": "consoles",
       "image": "assets/img/switch.jpg",
       "banner": "assets/img/banner_switch.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -94,7 +103,7 @@
     },
     {
       "id": 11,
-      "category": "Consoles",
+      "category": "consoles",
       "image": "assets/img/xbox_x.jpg",
       "banner": "assets/img/banner_xbox_x.jpeg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
@@ -103,7 +112,7 @@
     },
     {
       "id": 12,
-      "category": "Consoles",
+      "category": "consoles",
       "image": "assets/img/boy.jpg",
       "banner": "assets/img/banner_boy.jpg",
       "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus., facilis fusce! Ullam conubia?",
