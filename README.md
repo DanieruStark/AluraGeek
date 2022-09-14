@@ -62,7 +62,7 @@ O Back-End foi desenvolvido em uma fake Api feita em Json-server, api simples qu
 
 ## Considerações finais
 
-Esse foi um excelente projeto de desafio, a Alura o desenvolveu para que o Aluno o fizesse em html, css e javascript, fui além e toda a produção foi feita em Angular e Typescript, tem sido um excelente projeto para aprimorar cada vez mais minha habilidades no desenvolvimento Web.
+Esse foi um excelente projeto de desafio, a Alura o desenvolveu para que o Aluno o fizesse em html, css e javascript, fui além e toda a produção foi feita em Angular e Typescript, tem sido um excelente projeto para aprimorar cada vez mais minhas habilidades no desenvolvimento Web.
 
 Mas esse projeto não acaba por aqui, minha intenção é não só trazer o CRUD como também trazer o carrinho de compras e outras funcionalidades para deixar esse challenge completo adicionando mesmo partes que não foram pedidas...
 
