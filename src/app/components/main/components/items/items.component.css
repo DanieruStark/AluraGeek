@@ -36,7 +36,7 @@
   margin-right: 0;
 }
 
-.items_product:nth-last-child(-n+2) {
+.items_product:nth-child(n+5) {
   display: none;
 }
 
@@ -96,12 +96,8 @@
     margin-right: 1rem;
   }
 
-  .items_product:nth-last-child(3) {
+  .items_product:nth-child(4) {
     margin-right: 0;
-  }
-
-  .items_product:nth-last-child(-n+2) {
-    display: none;
   }
 
   .items_img {
@@ -118,6 +114,7 @@
 @media (min-width: 1366px) {
   .items_header {
     margin: 1rem 9.5rem;
+    margin-top: 3rem;
   }
   .title {
     font-size: 2rem;
@@ -147,15 +144,19 @@
     margin-right: 1.3rem;
   }
 
-  .items_product:nth-last-child(3) {
+  .items_product:nth-child(n+5) {
+    display: inline;
+  }
+
+  .items_product:nth-child(n+7) {
+    display: none;
+  }
+
+  .items_product:nth-child(4) {
     margin-right: 1.3rem;
   }
 
-  .items_product:last-child {
+  .items_product:nth-child(6) {
     margin-right: 0;
-  }
-
-  .items_product:nth-last-child(-n+2) {
-    display: inline;
   }
 }

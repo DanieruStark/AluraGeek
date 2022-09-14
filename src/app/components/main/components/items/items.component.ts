@@ -13,7 +13,7 @@ export class ItemsComponent implements OnInit {
   productsStarWars!: ProductsCategorys;
   productsConsoles!: ProductsCategorys;
   productsDiversos!: ProductsCategorys;
-  categorys = {};
+  
   constructor(private itemsService: ItemsService) { }
 
   ngOnInit(): void {
@@ -26,6 +26,7 @@ export class ItemsComponent implements OnInit {
     this.itemsService.userListStarWars().subscribe({
       next: (res) => {
         this.productsStarWars = res;
+        console.log(res.length)
       },
       error: (err) => console.log('Error while fetching the api')
     })

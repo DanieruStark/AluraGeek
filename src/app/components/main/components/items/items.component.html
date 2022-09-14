@@ -1,7 +1,7 @@
 <section class="items_list">
   <div class="items_header">
     <h2 class="title">Star Wars</h2>
-    <button class="see_all">
+    <button class="see_all" [routerLink]="['products']">
       <p>Ver tudo</p>
       <span class="arrow">🡢</span>
     </button>
@@ -19,8 +19,8 @@
     </div>
   </div>
   <div class="items_header">
-    <h2 class="title">Consoles</h2>
-    <button class="see_all">
+    <h2 class="title" id="consoles">Consoles</h2>
+    <button class="see_all" [routerLink]="['products']">
       <p>Ver tudo</p>
       <span class="arrow">🡢</span>
     </button>
@@ -39,7 +39,7 @@
   </div>
   <div class="items_header">
     <h2 class="title">Diversos</h2>
-    <button class="see_all">
+    <button class="see_all" [routerLink]="['products']">
       <p>Ver tudo</p>
       <span class="arrow">🡢</span>
     </button>
