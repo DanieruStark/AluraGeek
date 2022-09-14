@@ -64,7 +64,7 @@ O Back-End foi desenvolvido em uma fake Api feita em Json-server, api simples qu
 
 Esse foi um excelente projeto de desafio, a Alura o desenvolveu para que o Aluno o fizesse em html, css e javascript, fui além e toda a produção foi feita em Angular e Typescript, tem sido um excelente projeto para aprimorar cada vez mais minhas habilidades no desenvolvimento Web.
 
-Mas esse projeto não acaba por aqui, minha intenção é não só trazer o CRUD como também trazer o carrinho de compras e outras funcionalidades para deixar esse challenge completo adicionando mesmo partes que não foram pedidas...
+Esse projeto não acaba por aqui, minha intenção é não só trazer o CRUD como também trazer o carrinho de compras e outras funcionalidades para deixar esse challenge completo adicionando mesmo partes que não foram pedidas...
 
 Atualmente esse é meu projeto preferido devido a sua complexidade e, o fato de ter ainda muitas possibilidades de melhoria e refatoração do código, garante que continuar trabalhando nele me fará evoluir muito. Então se você está fazendo o Challenge e veio em busca de ajuda ou é somente um curioso faça uma visita nesse repositório outras vezes porque é certo que terá novidade!.
 
